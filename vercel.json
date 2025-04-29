@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "server.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/validate-token", "methods": ["POST"], "dest": "/server.js" },
+      { "src": "/widget.js", "methods": ["GET"], "dest": "/widget.js" }
+    ]
+  }
+  
+
+  

@@ -1,0 +1,10 @@
+
+<script src = 'https://testmyprompt.com/widget/6809b3a1523186af0b2c9933/widget.js'></script> 
+<script> 
+
+    window.mychatwidget.init({
+        token:"past the client token"
+        clientid: "client"
+    })
+</Script>
+
